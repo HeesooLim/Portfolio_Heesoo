@@ -1,0 +1,222 @@
+body {
+    background-image: url('../Assets/images/Polka.jpg');
+    /* background-color: rgb(255, 255, 255); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    margin-top: 100px;
+}
+
+/* container of itemContainer */
+#projectMain {
+    position: relative;
+    height: 100vh;
+}
+
+/* container of project Elements */
+#itemContainer {
+    position: relative;
+    height: 100vh;
+    /* background-color: rgb(250, 250, 250); */
+    width: 75%;
+    margin: auto;
+}
+
+.projectItem, #projectHeader {
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/* project item containing an image */
+.projectItem {
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px rgb(189, 189, 189);
+}
+
+/* project item containing a paragraph, not an image */
+.projectItem:nth-of-type(2) {
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+#projectHeader {
+    background-color: transparent;
+}
+
+/* project item located in the middle(second, fifth) */
+#description, .four {
+    width: 300px;
+    height: 260px;
+}
+
+#projectHeader {
+    left: 40%;
+    top: 20%;
+}
+
+#projectHeader h3 {
+    font-size: 50px;
+    margin-top: 50px;
+    line-height: 75px;
+}
+
+#projectHeader .underLine {
+    display: inline-block;
+    width: 80%;
+    background-color: rgb(200, 200, 200);
+    height: 4px;
+}
+
+.one {
+    top: 116px;
+    left: 10%;
+}
+
+.two {
+    top: 116px;
+    right: 10%;
+}
+
+.description {
+    top: 100px;
+    left: 36.85%;
+    background-color: transparent;
+}
+
+.three {
+    top: 422px;
+    left: 10%;
+}
+
+.four {
+    top: 422px;
+    left: 36.85%;
+}
+
+.five {
+    top: 422px;
+    right: 10%;
+}
+
+#projectMain .projectItem img {
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 7px;
+    margin: 0px;
+}
+
+/* element that appears only when the mouse is hovered */
+.itemInfo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    padding-top: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.itemInfo p {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.itemInfo a {
+    display: block;
+    font-size: 14px;
+    line-height: 40px;
+    color: black;
+}
+
+/* make the info visible */
+.projectItem:hover .itemInfo {
+    opacity: 1;
+}
+
+#projectMain .itemInfo img {
+    position: relative;
+    /* display: inline-block; */
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 50px;
+    height: auto;
+}
+
+.description p {
+    text-align: center;
+    line-height: 40px;
+    padding-top: 80px;
+}
+
+
+
+@media only screen and (max-width: 1280px) {
+    main {
+        margin-top: 10px;
+    }
+
+    footer {
+        padding-top: 10px;
+    }
+
+    #projectMain {
+        /* might be changed */
+        height: 180vh;
+    }
+
+    #itemContainer {
+        height: 180vh;
+        text-align: center;
+        padding: 30px;
+    }
+    
+    .projectItem, #projectHeader {
+        position: relative;
+        display: inline-block;
+        top: 0%;
+        left: 0%;
+        margin-bottom: 20px;
+    }
+
+    .projectItem {
+        width: 200px;
+        height: 200px;
+    }
+
+    #projectHeader {
+        display: none;
+    }
+    
+    #projectHeader h3 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .description p {
+        text-align: center;
+        padding-top: 0px;
+    }
+    
+    .description {
+        top: 0;
+        left: 0;
+        height: 120px;
+    }
+    .one {
+        margin-top: 60px;
+    }
+    
+}
+
+

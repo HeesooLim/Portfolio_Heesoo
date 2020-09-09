@@ -1,0 +1,194 @@
+body {
+    background-color: rgba(255, 247, 252, 0.76);
+}
+
+main {
+    margin-top: 400px;
+}
+
+.flower {
+    width: 308px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+
+#hero {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -2;
+    height: 600px;
+}
+
+#heroText {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#heroText h1 {
+    font-size: 80px; 
+    font-family: 'Dancing Script';  
+}
+
+/* right flower */
+.right {
+    right: 0px;
+}
+
+/* left flower */
+.left {
+    left: 0px;
+}
+
+#profileContainer {
+    width: 980px;
+    margin: auto;
+    text-align: right;
+    margin-bottom: 100px;
+    opacity: 1;
+    background-color: rgba(255, 236, 236, 0.836);
+    border-radius: 5px;
+}
+
+#mainContainer {
+    width: 980px;
+    background-color: transparent;
+    margin: auto;
+    padding: 80px;
+}
+
+
+
+#learned {
+    text-align: center;
+    position: relative;
+    height: 40vh;
+    margin: auto;
+}
+
+#learned img {
+    width: 90px;
+    height: auto;
+    margin: 20px;
+    position: absolute;
+    opacity: 1;
+}
+
+#cSharp {
+    left: 6%;
+    top: 100px;
+}
+
+#db {
+    left: 20%;
+    top: 100px;
+}
+
+#js {
+    left: 34%;
+    top: 100px;
+}
+
+#html {
+    left: 48%;
+    top: 100px;
+}
+
+#css {
+    left: 62%;
+    top: 100px;
+}
+
+#linux {
+    left: 74%;
+    top: 100px;
+}
+
+.containerDescription {
+    display: inline-block;
+    padding: 100px;
+    text-align: left;
+}
+
+.containerImage {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+}
+
+.containerImage img {
+    border-radius: 50px 0px 0px 50px / 200px 0px 0px 200px;
+}
+
+#profileContainer .containerImage {
+    margin-left: 30px;
+}
+
+
+
+
+@media only screen and (max-width: 980px) {
+
+    main {
+        margin-top: 150px;
+    }
+
+    .right, .left {
+        visibility: hidden;
+    }
+
+    #hero {
+        height: 300px;
+    }
+
+    #heroText {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    #heroText h1 {
+        font-size: 60px; 
+    }
+
+    #profileContainer {
+        width: 90%;
+        border-style: none;
+        margin-bottom: 100px;
+    }
+
+    .containerDescription {
+        display: block;
+        padding: 70px;
+        text-align: center;
+    }
+
+    .containerImage {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    .containerImage img {
+        border-radius: 0px;
+    }
+
+    #profileContainer .containerImage {
+        margin-left: 0px;
+    }
+
+    #mainContainer {
+        width: 90%;
+        padding: 30px;
+        padding-top: 80px;
+        height: 50vh;
+    }
+
+    #learned img {
+        width: 50px;
+        height: auto;
+    }
+}
