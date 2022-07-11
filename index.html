@@ -1,108 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>home</title>
     <!-- CSS Section -->
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing Script">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
-    <link rel="stylesheet" href="./Contents/app.css">
-    <link rel="stylesheet" href="./Contents/index.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Dancing Script"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Comfortaa"
+    />
+    <link rel="stylesheet" href="./Contents/app.css" />
+    <link rel="stylesheet" href="./Contents/index.css" />
+  </head>
+  <body>
     <header>
-
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="index.html"><img src="./Assets/images/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html" id="home">HOME</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="projects.html" id="projects">PROJECTS</a>
-                </li>
-              </ul>
-            </div>
-        </nav>
-
-        <div id="hero"><img src="./Assets/images/hero.png" alt="blurred cherry blossom image"></div>
-        <div class="flower right"><img src="./Assets/images/flowerRight.png" alt="a picture of cherry blossom branch"></div>
-        <div class="flower left"><img src="./Assets/images/flowerLeft.png" alt="a picture of cherry blossom branch"></div>
-        <div id="heroText">
-          <h1>HEESOO LIM</h1>
-          <p>I'm a student of centennial college.</p>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"
+          ><img src="./Assets/images/logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" id="home">HOME</a>
+            </li>
+          </ul>
         </div>
-        
+      </nav>
+
+      <div id="hero">
+        <img
+          src="./Assets/images/hero.png"
+          alt="blurred cherry blossom image"
+        />
+      </div>
+      <div class="flower right">
+        <img
+          src="./Assets/images/flowerRight.png"
+          alt="a picture of cherry blossom branch"
+        />
+      </div>
+      <div class="flower left">
+        <img
+          src="./Assets/images/flowerLeft.png"
+          alt="a picture of cherry blossom branch"
+        />
+      </div>
+      <div id="heroText">
+        <h1>HEESOO LIM</h1>
+        <p>I'm a student of centennial college.</p>
+      </div>
     </header>
 
     <main>
       <div id="profileContainer">
-
         <div class="containerDescription">
           <h3>Hi, I'm Heesoo Lim</h3>
           <p>I'm in Software Engineering Technology</p>
         </div>
 
         <div class="containerImage">
-          <img src="./Assets/images/profile.jpg" alt="">
+          <img src="./Assets/images/profile.jpg" alt="" />
         </div>
-
       </div>
-
-      
 
       <div id="mainContainer">
-
         <div id="learned">
           <h2>WHAT I'VE LEARNED !</h2>
-          <img id="cSharp" src="./Assets/images/cSharp.png" alt="">
-          <img id="db" src="./Assets/images/db.png" alt="">
-          <img id="js" src="./Assets/images/js.png" alt="">
-          <img id="html" src="./Assets/images/html.png" alt="">
-          <img id="css" src="./Assets/images/css.png" alt="">
-          <img id="linux" src="./Assets/images/linux.png" alt="">
+          <img id="cSharp" src="./Assets/images/cSharp.png" alt="" />
+          <img id="db" src="./Assets/images/db.png" alt="" />
+          <img id="js" src="./Assets/images/js.png" alt="" />
+          <img id="html" src="./Assets/images/html.png" alt="" />
+          <img id="css" src="./Assets/images/css.png" alt="" />
+          <img id="linux" src="./Assets/images/linux.png" alt="" />
         </div>
       </div>
-
     </main>
 
-
     <footer>
-
       <div id="footerInfo">
         <div id="myInfo">
-          <div class="infoIcon"><img src="./Assets/images/GitHub.png" alt="the icon of GitHub"><a href="https://github.com/HeesooLim">GitHub</a><p>repositories</p></div>
-          <div class="infoIcon"><img src="./Assets/images/linkedin.png" alt="the icon of Linkedin"><a href="https://www.linkedin.com/in/heesoo-lim-9175451a2">Linked In</a><p>profile</p></div>
-          <div class="infoIcon"><img src="./Assets/images/email.png" alt="email icon"><a href="mailto:hlim29@my.centennialcollege.ca">Email</a><p>mail me!</p></div>
-          <div class="infoIcon"><img src="Assets/images/phone.png" alt="phone icon"><p>Phone</p><p>+1 (647) 523-1383</p></div>
+          <div class="infoIcon">
+            <img src="./Assets/images/GitHub.png" alt="the icon of GitHub" /><a
+              href="https://github.com/HeesooLim"
+              >GitHub</a
+            >
+            <p>repositories</p>
+          </div>
+          <div class="infoIcon">
+            <img
+              src="./Assets/images/linkedin.png"
+              alt="the icon of Linkedin"
+            /><a href="https://www.linkedin.com/in/heesoo-lim-9175451a2"
+              >Linked In</a
+            >
+            <p>profile</p>
+          </div>
+          <div class="infoIcon">
+            <img src="./Assets/images/email.png" alt="email icon" /><a
+              href="mailto:hlim29@my.centennialcollege.ca"
+              >Email</a
+            >
+            <p>mail me!</p>
+          </div>
+          <div class="infoIcon">
+            <img src="Assets/images/phone.png" alt="phone icon" />
+            <p>Phone</p>
+            <p>+1 (647) 523-1383</p>
+          </div>
         </div>
 
         <div id="sitemap">
           <h4>Sitemap</h4>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
           </ul>
         </div>
 
-        <img id="ground" src="./Assets/images/ground.png" alt="picture of grass field">
-        <img id="rose1" src="./Assets/images/rose.png" alt="picture of a small rose">
-        <img id="rose2" src="./Assets/images/rose.png" alt="picture of a small rose">
-        <img id="rose3" src="./Assets/images/rose.png" alt="picture of a small rose">
-        <img id="rose4" src="./Assets/images/rose.png" alt="picture of a small rose">
-        <img id="rose5" src="./Assets/images/rose.png" alt="picture of a small rose">
-        <img id="rose6" src="./Assets/images/rose.png" alt="picture of a small rose">
-
+        <img
+          id="ground"
+          src="./Assets/images/ground.png"
+          alt="picture of grass field"
+        />
+        <img
+          id="rose1"
+          src="./Assets/images/rose.png"
+          alt="picture of a small rose"
+        />
+        <img
+          id="rose2"
+          src="./Assets/images/rose.png"
+          alt="picture of a small rose"
+        />
+        <img
+          id="rose3"
+          src="./Assets/images/rose.png"
+          alt="picture of a small rose"
+        />
+        <img
+          id="rose4"
+          src="./Assets/images/rose.png"
+          alt="picture of a small rose"
+        />
+        <img
+          id="rose5"
+          src="./Assets/images/rose.png"
+          alt="picture of a small rose"
+        />
+        <img
+          id="rose6"
+          src="./Assets/images/rose.png"
+          alt="picture of a small rose"
+        />
       </div>
-      
-      <nav class="navbar bottom navbar-light"> &copy; Copyright 2020</nav>
+
+      <nav class="navbar bottom navbar-light">&copy; Copyright 2020</nav>
     </footer>
 
     <!-- 3rd Party JavaScript Libraries -->
@@ -113,5 +187,5 @@
 
     <!-- App Scripts -->
     <script src="./Scripts/app.js"></script>
-</body>
+  </body>
 </html>
