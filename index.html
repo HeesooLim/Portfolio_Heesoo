@@ -2,190 +2,384 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>home</title>
-    <!-- CSS Section -->
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="description" name="description" />
+    <meta name="google" content="notranslate" />
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no" />
+
     <link
-      rel="stylesheet"
-      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./Assets/apple-icon-180x180.png"
     />
-    <link
-      rel="stylesheet"
-      href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Dancing Script"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Comfortaa"
-    />
-    <link rel="stylesheet" href="./Contents/app.css" />
-    <link rel="stylesheet" href="./Contents/index.css" />
+    <link href="./Assets/favicon.ico" rel="icon" />
+
+    <title>Heesoo Lim</title>
+
+    <link href="./index.css" rel="stylesheet" />
   </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html"
-          ><img src="./Assets/images/logo.png" alt=""
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html" id="home">HOME</a>
-            </li>
-          </ul>
+
+  <body class="">
+    <div
+      class="background-color-layer"
+      style="background-image: url('Assets/images/heesoo.png')"
+    ></div>
+    <main class="content-wrapper">
+      <header class="white-text-container section-container">
+        <div class="text-center">
+          <h1>I am Heesoo Lim</h1>
+          <p>Web developer</p>
+          <p>
+            <a
+              class="fa-icon fa-icon-2x"
+              href="https://www.linkedin.com/in/heesoo-lim/"
+              title=""
+            >
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a
+              class="fa-icon fa-icon-2x"
+              href="https://github.com/HeesooLim"
+              title=""
+            >
+              <i class="fa fa-github"></i>
+            </a>
+          </p>
         </div>
-      </nav>
+      </header>
 
-      <div id="hero">
-        <img
-          src="./Assets/images/hero.png"
-          alt="blurred cherry blossom image"
-        />
-      </div>
-      <div class="flower right">
-        <img
-          src="./Assets/images/flowerRight.png"
-          alt="a picture of cherry blossom branch"
-        />
-      </div>
-      <div class="flower left">
-        <img
-          src="./Assets/images/flowerLeft.png"
-          alt="a picture of cherry blossom branch"
-        />
-      </div>
-      <div id="heroText">
-        <h1>HEESOO LIM</h1>
-        <p>I'm a student of centennial college.</p>
-      </div>
-    </header>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="card">
+              <div class="card-block">
+                <div>
+                  <h2>About me</h2>
+                  <a href="./Assets/resume.pdf">Resume</a>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <p>
+                      <img
+                        src="./Assets/images/heesoo.png"
+                        class="img-responsive"
+                        alt=""
+                      />
+                    </p>
+                  </div>
+                  <div class="col-md-8">
+                    <p>Thanks for visiting my website!</p>
+                    <p>
+                      I'm a web developer persuing an advanced diploma in
+                      Software Engineering Technology and I'm seeking
+                      opportunities in web development.
+                    </p>
+                    <p>
+                      I'm fueled by the passion for learning new technologies
+                      and developing skills. Throughout this year, I have
+                      focused on learning JavaScript and developing web
+                      applications with React. I'm prepared to bring my energy,
+                      dedication, and motivation to the future project that I
+                      will work on!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-    <main>
-      <div id="profileContainer">
-        <div class="containerDescription">
-          <h3>Hi, I'm Heesoo Lim</h3>
-          <p>I'm in Software Engineering Technology</p>
-        </div>
+            <div class="card">
+              <div class="card-block">
+                <h2>Projects</h2>
+                <div class="row">
+                  <div class="col-md-6">
+                    <!-- <img
+                      src="./Assets/images/img-02.jpg"
+                      class="img-responsive"
+                      alt=""
+                    /> -->
+                    <div
+                      id="carousel-example-generic"
+                      class="carousel slide"
+                      data-ride="carousel"
+                    >
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img
+                            src="./Assets/images/planifie-1.png"
+                            class="img-responsive"
+                            alt="..."
+                          />
+                          <!-- <div class="carousel-caption">
+                            <h3 class="h5">Jules for Bastion</h3>
+                            <p>2017</p>
+                          </div> -->
+                        </div>
+                        <div class="item">
+                          <img
+                            src="./Assets/images/planifie-2.png"
+                            class="img-responsive"
+                            alt="..."
+                          />
+                          <!-- <div class="carousel-caption">
+                            <h3 class="h5">Jules for Bastion</h3>
+                            <p>2017</p>
+                          </div> -->
+                        </div>
 
-        <div class="containerImage">
-          <img src="./Assets/images/profile.jpg" alt="" />
-        </div>
-      </div>
+                        <div class="item">
+                          <img
+                            src="./Assets/images/planifie-3.png"
+                            class="img-responsive"
+                            alt="..."
+                          />
+                          <!-- <div class="carousel-caption">
+                            <h3 class="h5">Jules for Bastion</h3>
+                            <p>2017</p>
+                          </div> -->
+                        </div>
+                      </div>
 
-      <div id="mainContainer">
-        <div id="learned">
-          <h2>WHAT I'VE LEARNED !</h2>
-          <img id="cSharp" src="./Assets/images/cSharp.png" alt="" />
-          <img id="db" src="./Assets/images/db.png" alt="" />
-          <img id="js" src="./Assets/images/js.png" alt="" />
-          <img id="html" src="./Assets/images/html.png" alt="" />
-          <img id="css" src="./Assets/images/css.png" alt="" />
-          <img id="linux" src="./Assets/images/linux.png" alt="" />
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li
+                          data-target="#carousel-example-generic"
+                          data-slide-to="0"
+                          class="active"
+                        ></li>
+                        <li
+                          data-target="#carousel-example-generic"
+                          data-slide-to="1"
+                        ></li>
+                        <li
+                          data-target="#carousel-example-generic"
+                          data-slide-to="2"
+                        ></li>
+                      </ol>
+                    </div>
+                    <div class="project-detail__container">
+                      <div>
+                        <h3 class="h5 project-title">Planifie</h3>
+                        <!-- <p>2021</p> -->
+                      </div>
+                      <a
+                        href="https://planifie-heesoo.herokuapp.com/"
+                        class="btn btn-primary"
+                        >live-demo</a
+                      >
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <!-- <img
+                      src="./Assets/images/img-02.jpg"
+                      class="img-responsive"
+                      alt=""
+                    /> -->
+                    <div
+                      id="carousel-example-generic-2"
+                      class="carousel slide"
+                      data-ride="carousel"
+                    >
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img
+                            src="./Assets/images/tournado-1.png"
+                            class="img-responsive"
+                            alt="..."
+                          />
+                          <!-- <div class="carousel-caption">
+                            <h3 class="h5">Jules for Bastion</h3>
+                            <p>2017</p>
+                          </div> -->
+                        </div>
+                        <div class="item">
+                          <img
+                            src="./Assets/images/tournado-2.png"
+                            class="img-responsive"
+                            alt="..."
+                          />
+                          <!-- <div class="carousel-caption">
+                            <h3 class="h5">Jules for Bastion</h3>
+                            <p>2017</p>
+                          </div> -->
+                        </div>
+
+                        <div class="item">
+                          <img
+                            src="./Assets/images/tournado-3.png"
+                            class="img-responsive"
+                            alt="..."
+                          />
+                          <!-- <div class="carousel-caption">
+                            <h3 class="h5">Jules for Bastion</h3>
+                            <p>2017</p>
+                          </div> -->
+                        </div>
+                      </div>
+
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li
+                          data-target="#carousel-example-generic-2"
+                          data-slide-to="0"
+                          class="active"
+                        ></li>
+                        <li
+                          data-target="#carousel-example-generic-2"
+                          data-slide-to="1"
+                        ></li>
+                        <li
+                          data-target="#carousel-example-generic-2"
+                          data-slide-to="2"
+                        ></li>
+                      </ol>
+                    </div>
+                    <div class="project-detail__container">
+                      <div>
+                        <h3 class="h5 project-title">Tournado</h3>
+                        <!-- <p>2020</p> -->
+                      </div>
+                      <a
+                        href="https://tornado-redeployed.herokuapp.com/"
+                        class="btn btn-primary"
+                        >live-demo</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-block">
+                <h2>Work</h2>
+                <div class="work-experience">
+                  <small class="date">2021</small>
+                  <h3 class="h5 date-title">
+                    Full stack developer -
+                    <a
+                      href="https://alphalabs.ca/"
+                      title="Create professionnal website"
+                    >
+                      Alpha Labs
+                    </a>
+                  </h3>
+
+                  <p>
+                    Maintained effective communication with designers to ensure
+                    application’s styling is completed in accordance with
+                    designer needs/requirements. Coordinated with team members
+                    to identify and mitigate potential errors before integrating
+                    code. Wrote codes to execute automated testing to ensure
+                    application meets requirements.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-block">
+                <h2>Education</h2>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="education-experience">
+                      <small class="date">2020-2022</small>
+                      <h3 class="h5 date-title" id="education-title">
+                        Software Engineering Technology
+                      </h3>
+                      <small id="education-diploma">Advanced diploma</small>
+                      <p>Centennial College</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-block">
+                <h2>Language</h2>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="language-experience">
+                      <h3 class="h5">English <small>Advanced</small></h3>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="language-experience">
+                      <h3 class="h5">Korean <small>Fluent</small></h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-block">
+                <h2>Contact Me</h2>
+                <div class="row">
+                  <div class="col-md-3">
+                    <p class="social-buttons">
+                      <a href="https://www.linkedin.com/in/heesoo-lim/" title=""
+                        ><span class="social-round-icon fa-icon"
+                          ><i class="fa fa-linkedin"></i></span
+                        >Heesoo Lim</a
+                      >
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="social-buttons">
+                      <a href="https://wa.me/16475231383" title=""
+                        ><span class="social-round-icon fa-icon"
+                          ><i class="fa fa-whatsapp"></i></span
+                        >Heesoo Lim</a
+                      >
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="social-buttons">
+                      <a href="mailto:heesoo474@gmail.com" title=""
+                        ><span class="social-round-icon fa-icon"
+                          ><i class="fa fa-envelope"></i></span
+                        >Heesoo Lim</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
-
-    <footer>
-      <div id="footerInfo">
-        <div id="myInfo">
-          <div class="infoIcon">
-            <img src="./Assets/images/GitHub.png" alt="the icon of GitHub" /><a
-              href="https://github.com/HeesooLim"
-              >GitHub</a
-            >
-            <p>repositories</p>
-          </div>
-          <div class="infoIcon">
-            <img
-              src="./Assets/images/linkedin.png"
-              alt="the icon of Linkedin"
-            /><a href="https://www.linkedin.com/in/heesoo-lim-9175451a2"
-              >Linked In</a
-            >
-            <p>profile</p>
-          </div>
-          <div class="infoIcon">
-            <img src="./Assets/images/email.png" alt="email icon" /><a
-              href="mailto:hlim29@my.centennialcollege.ca"
-              >Email</a
-            >
-            <p>mail me!</p>
-          </div>
-          <div class="infoIcon">
-            <img src="Assets/images/phone.png" alt="phone icon" />
-            <p>Phone</p>
-            <p>+1 (647) 523-1383</p>
+    <footer class="footer-container white-text-container text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p>
+              ©All right reserved. Design
+              <a
+                href="http://www.mashup-template.com/"
+                title="Create website with html"
+                >Mashup</a
+              >/<a href="https://unsplash.com/" title="Beautiful Free Images"
+                >Unsplash</a
+              >
+            </p>
           </div>
         </div>
-
-        <div id="sitemap">
-          <h4>Sitemap</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-          </ul>
-        </div>
-
-        <img
-          id="ground"
-          src="./Assets/images/ground.png"
-          alt="picture of grass field"
-        />
-        <img
-          id="rose1"
-          src="./Assets/images/rose.png"
-          alt="picture of a small rose"
-        />
-        <img
-          id="rose2"
-          src="./Assets/images/rose.png"
-          alt="picture of a small rose"
-        />
-        <img
-          id="rose3"
-          src="./Assets/images/rose.png"
-          alt="picture of a small rose"
-        />
-        <img
-          id="rose4"
-          src="./Assets/images/rose.png"
-          alt="picture of a small rose"
-        />
-        <img
-          id="rose5"
-          src="./Assets/images/rose.png"
-          alt="picture of a small rose"
-        />
-        <img
-          id="rose6"
-          src="./Assets/images/rose.png"
-          alt="picture of a small rose"
-        />
       </div>
-
-      <nav class="navbar bottom navbar-light">&copy; Copyright 2020</nav>
     </footer>
 
-    <!-- 3rd Party JavaScript Libraries -->
-    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
-
-    <!-- App Scripts -->
-    <script src="./Scripts/app.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        scrollRevelation(".card");
+      });
+    </script>
+    <script type="text/javascript" src="./Scripts/main.bc58148c.js"></script>
   </body>
 </html>
