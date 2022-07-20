@@ -5068,5 +5068,10 @@ label {
 .footer-container a {
   color: rgb(68, 68, 68);
 }
+.card-block__about-me-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 /*# sourceMappingURL=main.bc58148c.map*/
